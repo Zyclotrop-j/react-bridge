@@ -13,7 +13,7 @@ class Noop extends React.Component {
 }
 const r17root = React17.createElement('div', {}, [
   React17.createElement(App17),
-  React17.createElement(Bridge, { someprop: "!!!", element: 'span', scope: 'my-uniqueid' }, (props) => <><Noop ref={() => console.log("app started")} />{props.someprop}<App /></>)
+  React17.createElement(Bridge, { someprop: "-----!!!", element: 'span', scope: 'my-uniqueid' }, (props) => <><Noop ref={() => console.log("app started")} />{props.someprop}<App /></>)
 ]);
 ReactDOM17.render(r17root, document.getElementById('root'));
 
